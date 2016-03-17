@@ -1,0 +1,10 @@
+[package]
+name = "tlpirust"
+version = "0.1.0"
+authors = ["Paul Osborne <osbpau@gmail.com>"]
+
+[dependencies]
+libc = "0.2.8"
+nix = "0.5"
+rustc-serialize = "0.3"
+docopt = "0.6"
