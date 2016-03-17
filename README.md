@@ -42,8 +42,8 @@ Various other crates are used for things that are not central to the
 features being demonstrated as makes sense (e.g. argument parsing,
 etc.).
 
-[libc][https://github.com/rust-lang/libc]
-[nix][https://github.com/nix-rust/nix]
+[libc]: https://github.com/rust-lang/libc
+[nix]: https://github.com/nix-rust/nix
 
 Contributing
 ============
