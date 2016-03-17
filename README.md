@@ -1,6 +1,8 @@
 The Linux Programming Interface in Rust
 ---------------------------------------
 
+[![Build Status](https://travis-ci.org/posborne/rust-systems-programming.svg?branch=master)](https://travis-ci.org/posborne/rust-systems-programming)
+
 This repository contains a number of examples showing how one might go
 about accessing various features of a modern Linux (and sometimes
 Posix) system from the [Rust Programming Language][rust].
