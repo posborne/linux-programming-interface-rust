@@ -21,8 +21,8 @@ struct Args {
 
 fn main() {
     let args: Args = Docopt::new(USAGE)
-        .and_then(|d| d.decode())
-        .unwrap_or_else(|e| e.exit());
+                         .and_then(|d| d.decode())
+                         .unwrap_or_else(|e| e.exit());
 
     let mut src = File::open(&args.arg_src).unwrap_or_else(|e| {
         logexit!(1, "Unable to open src path {}: {}", &args.arg_src, e);
