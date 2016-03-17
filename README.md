@@ -1,5 +1,4 @@
-The Linux Programming Interface in Rust
----------------------------------------
+# The Linux Programming Interface in Rust
 
 [![Build Status](https://travis-ci.org/posborne/rust-systems-programming.svg?branch=master)](https://travis-ci.org/posborne/rust-systems-programming)
 
@@ -21,8 +20,7 @@ historically targetted.  That includes systems programming.
 [tlpi]: http://man7.org/tlpi/
 [tlpi-exercises]: https://github.com/posborne/linux-programming-interface-exercises
 
-External Code
-=============
+## External Code
 
 C has been wildly successful, but one of its major downfalls has been
 that it is very difficult to reuse C code in a portable fashion.  In
@@ -47,8 +45,7 @@ etc.).
 [libc]: https://github.com/rust-lang/libc
 [nix]: https://github.com/nix-rust/nix
 
-Contributing
-============
+## Contributing
 
 Contributions to this library are very welcome in whatever form.
 Common ways of contributing include:
@@ -62,8 +59,7 @@ Common ways of contributing include:
 TravisCI is used for continuous integration and an effort is made to
 test as much of the code here as possible.
 
-License
-=======
+## License
 
 Copyright (c) 2016, Paul Osborne <osbpau@gmail.com>
 
